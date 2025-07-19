@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    /* creates space between headerRight and headerleft */
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.headerLeft {
+    display: flex;
+    gap: 30px;
+}
+
