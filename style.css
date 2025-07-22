@@ -21,3 +21,43 @@ header .container {
     gap: 30px;
 }
 
+header a {
+    display: block;
+    font-family: "Lexend Exa", sans-serif;
+    text-decoration: none;
+    color: rgb(56, 2, 83);
+    padding: 0 15px;
+    line-height: 40px;
+    background-color: pink;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.cosmetics {
+    flex-direction: column;
+    position: absolute;
+    /* top: -10%;   */
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#shopButton {
+    position: relative;
+}
+
+.headerRight {
+    display: flex;
+}
+
+#shopButton:hover .cosmetics {
+   bottom: -160px;
+   opacity: 1;
+}
+
+
+
