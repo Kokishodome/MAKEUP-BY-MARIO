@@ -9,6 +9,11 @@
     margin: auto;
 }
 
+header {
+    position: relative;
+    z-index: 10;
+}
+
 header .container {
     display: flex;
     /* creates space between headerRight and headerleft */
@@ -28,7 +33,6 @@ header a {
     color: rgb(56, 2, 83);
     padding: 0 15px;
     line-height: 40px;
-    background-color: pink;
 }
 
 ul {
@@ -54,10 +58,81 @@ ul {
     display: flex;
 }
 
+span {
+    position: absolute;
+    top: -5px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #shopButton:hover .cosmetics {
    bottom: -160px;
    opacity: 1;
 }
+
+h1 {
+    text-align: center;
+    font-family: "Lexend Exa", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#bestSellers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.bestSeller {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.bestSeller p {
+    margin-bottom: 10px;
+}
+
+.bestSeller img {
+    width: 200px;
+}
+
+.bigImage img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: "Lexend Exa", sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: white;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+input {
+    font-family: "Lexend Exa", sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 
 
