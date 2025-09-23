@@ -30,7 +30,7 @@ header a {
     display: block;
     font-family: "Lexend Exa", sans-serif;
     text-decoration: none;
-    color: rgb(56, 2, 83);
+    color: rgb(0, 0, 0);
     padding: 0 15px;
     line-height: 40px;
 }
@@ -48,6 +48,8 @@ ul {
     z-index: -1;
     transition: 0.5s;
     opacity: 0;
+    background-color: white;
+    color: black;
 }
 
 #shopButton {
@@ -70,8 +72,8 @@ span {
 }
 
 #shopButton:hover .cosmetics {
-   bottom: -160px;
-   opacity: 1;
+    bottom: -160px;
+    opacity: 1;
 }
 
 h1 {
@@ -130,11 +132,15 @@ input {
     color: black;
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 30px;
 }
 
-
-
-
-
-
-
+button {
+    display: flex;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: "Lexend Exa", sans-serif;
+    padding: 0 5px;
+    line-height: 30px;
+}
